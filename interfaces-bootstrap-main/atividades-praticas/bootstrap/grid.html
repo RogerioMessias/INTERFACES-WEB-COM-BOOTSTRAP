@@ -4,11 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <style>
+        .altura {
+            height: 300px;
+        }
+
+        .altura100 {
+            height: 100px;
+        }
+    </style>
     <title>Grid</title>
 </head>
 </body>
 
-
+    <div class="container">
+        <div class="row">
+            <div class="col bg-danger altura100"></div>
+            <div class="col bg-warning altura100" ></div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-3 bg-danger altura100"></div>
+            <div class="col-3 bg-warning altura100" ></div>
+            <div class="col-3 bg-primary altura100"></div>
+            <div class="col-3 bg-info altura100" ></div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 altura100 bg-warning"></div>
+            <div class="col-3 altura bg-danger"></div>
+            <div class="col-9 altura bg-primary"></div>
+            <div class="col-12 altura100 bg-success"></div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 altura100 bg-warning"></div>
+            <div class="col-12 col-sm-3 altura col-md-6 bg-danger"></div>
+            <div class="col-12 col-sm-9 altura col-md-6 bg-primary"></div>
+            <div class="col-12 altura100 bg-success"></div>
+        </div>
+    </div>
 
 
 
